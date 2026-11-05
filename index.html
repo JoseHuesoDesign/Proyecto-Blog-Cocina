@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rincón Culinario</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>    
+    <body>
+
+        <header>
+            <h1 id="titulo-blog">Rincón Culinario</h1>
+            <h2>Recetas caseras, fáciles y con mucho sabor.</h2>
+        </header>
+
+        <nav aria-label="Menú principal">
+            <ul class="menu-list">
+                <li><a href="#estrella">Plato Estrella</a></li>
+                <li><a href="#recetas">Recetas</a></li>
+                <li><a href="#mi">Sobre Mi</a></li>
+                <li><a href="#sugerir">Sugerir Receta</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <main>
+
+            <div class="buscador-container">
+                <input type="text" id="buscador-recetas" placeholder="Buscar una receta (ej. Lentejas, Tarta...)">
+            </div>
+
+            <span class="btn-saludo">
+                <button id="btn-saludo">Saludar al cocinero</button>
+                <button id="btn-dark">Modo Oscuro</button>
+            </span>
+
+            <section id="estrella">
+                <h2 class="estrella">Plato Estrella de la Semana</h2>
+                <article class="tarjeta-receta">   
+                    <img src="img/queso.jpg" alt="tarta de queso cremosa" width="600" height="400">
+                    <h3>Tartar de Queso Cremosa</h3>
+                    <p>Atrévete a cocinar esta tarta de facil elaboración pero de gran calidad.</p>
+                    <ul>
+                        <li>Tiempo: 30 min</li>
+                        <li>Dificultad: 2 / 5</li>
+                    </ul>
+                    <div class="card-footer">
+                        <a href="tqc.html">¡A Cocinar!</a>
+                        <button class="btn-like">❤️ <span class="contador">0</span></button>
+                    </div>
+                </article>
+            </section>
+
+            <section id="recetas">
+                <h2>Mis recetas</h2>
+                <article class="tarjeta-receta">
+                    <img src="img/carbonara.jpg" alt="plato de pasta carbonara" widht="600" height="400">
+                    <h3>Pasta Carbonara</h3>
+                    <p>Tradicional pasta al estilo carbonara.</p>
+                    <ul>
+                        <li>Tiempo: 25min</li>
+                        <li>Dificultad: 1 / 5</li>
+                    </ul>
+                    <div class="card-footer">
+                        <a href="carbonara.html">¡A Cocinar!</a>
+                        <button class="btn-like">❤️ <span class="contador">0</span></button>
+                    </div>
+                </article>
+
+                <article class="tarjeta-receta">
+                    <img src="img/lentejas.jpg" alt="plato de lentejas" widht="600" height="400">
+                    <h3>Lentejas de la Abuela</h3>
+                    <p>Las autenticas lentejas que te preparaba tu abuela.</p>
+                    <ul>
+                        <li>Tiempo: 2 horas</li>
+                        <li>Dificultad: 3 / 5</li>
+                    </ul>
+                    <div class="card-footer">
+                        <a href="lentejas.html">¡A Cocinar!</a>
+                        <button class="btn-like">❤️ <span class="contador">0</span></button>
+                    </div>
+                </article>
+
+                <article class="tarjeta-receta">
+                    <img src="img/salmon.jpg" alt="salmón al horno con patatas y tomates" widht="600" height="400">
+                    <h3>Salmón al Horno</h3>
+                    <p>Del mar a tu plato con patatas.</p>
+                    <ul>
+                        <li>Tiempo: 1 hora</li>
+                        <li>Dificultad: 2 / 5</li>
+                    </ul>
+                    <div class="card-footer">
+                        <a href="salmon.html">¡A Cocinar!</a>
+                        <button class="btn-like">❤️ <span class="contador">0</span></button>
+                    </div>
+                </article>
+
+            </section>
+
+            <section id="mi">
+
+                <h2>El Chef detrás del Rincón</h2>
+                <p>Hola, soy Mateo Gómez, cocinero aficionado, eterno apasionado de la gastronomía tradicional y, 
+                sobre todo, un firme defensor de que comer bien no requiere pasar cinco horas en la cocina ni ingredientes imposibles.
+                Empecé este blog como un recetario personal para guardar los platos que aprendí de mis abuelos, pero se ha convertido 
+                en mi excusa favorita para compartir trucos caseros, rescatar sabores de toda la vida y demostrar que cualquiera puede
+                preparar un plato increíble con un poco de cariño y los ingredientes correctos. </p> <p class="frase-final">¡Séntate a la mesa y disfruta!</p>
+            </section>
+
+            <section id="sugerir">
+                
+                <h2>Sugerir Receta</h2>
+                <div class="cnt-2">
+                    <p>Si quieres compartir alguna receta en este blog picha <a href="contacto.html">aquí</a>.</p>
+                </div>
+            </section>
+
+            <section id="contacto">
+
+                <span class="cnt-1">
+                <h2>Donde Encontrarme</h2>
+                    <a href="https://instagram.com/CheffGomez" target="_blank">Instagram</a>
+                    <a href="https://facebook.com/CheffGomez" target="_blank">Facebook</a>
+                    <a href="https://youtube.com/CheffGomez" target="_blank">Youtube</a>
+                </span>
+
+                <span class="cnt-2">
+                    <p>Preguntas a mi: <a href="mailto:rinconculinario@correo.com">Correo</a>.</p>
+                </span>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Blog del Rincón Culinario. Todos los derechos reservados. </p>
+        </footer>
+
+    <script src="js/script.js" defer></script>
+
+    </body>
+</html>
